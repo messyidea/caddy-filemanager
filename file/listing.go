@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hacdias/caddy-filemanager/config"
+	"github.com/messyidea/caddy-filemanager/config"
 
 	"github.com/mholt/caddy/caddyhttp/httpserver"
 )

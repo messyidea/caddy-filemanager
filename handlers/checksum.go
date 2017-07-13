@@ -12,9 +12,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/hacdias/caddy-filemanager/config"
-	"github.com/hacdias/caddy-filemanager/file"
-	"github.com/hacdias/caddy-filemanager/utils/errors"
+	"github.com/messyidea/caddy-filemanager/config"
+	"github.com/messyidea/caddy-filemanager/file"
+	"github.com/messyidea/caddy-filemanager/utils/errors"
 )
 
 // Checksum calculates the hash of a file. Supports MD5, SHA1, SHA256 and SHA512.

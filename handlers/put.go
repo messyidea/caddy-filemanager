@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hacdias/caddy-filemanager/config"
-	"github.com/hacdias/caddy-filemanager/frontmatter"
+	"github.com/messyidea/caddy-filemanager/config"
+	"github.com/messyidea/caddy-filemanager/frontmatter"
 )
 
 // PreProccessPUT is used to update a file that was edited

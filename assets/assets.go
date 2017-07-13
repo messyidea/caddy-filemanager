@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hacdias/caddy-filemanager/config"
+	"github.com/messyidea/caddy-filemanager/config"
 )
 
 // BaseURL is the url of the assets

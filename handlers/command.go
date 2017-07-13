@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/hacdias/caddy-filemanager/config"
+	"github.com/messyidea/caddy-filemanager/config"
 )
 
 var upgrader = websocket.Upgrader{

@@ -11,8 +11,8 @@ import (
 	"time"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/hacdias/caddy-filemanager/config"
-	"github.com/hacdias/caddy-filemanager/utils/errors"
+	"github.com/messyidea/caddy-filemanager/config"
+	"github.com/messyidea/caddy-filemanager/utils/errors"
 )
 
 // Info contains the information about a particular file or directory

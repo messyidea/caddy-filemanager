@@ -13,7 +13,7 @@ import (
 	"gopkg.in/yaml.v2"
 
 	"github.com/BurntSushi/toml"
-	"github.com/hacdias/caddy-filemanager/utils/variables"
+	"github.com/messyidea/caddy-filemanager/utils/variables"
 
 	"github.com/spf13/cast"
 )

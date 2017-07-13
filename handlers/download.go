@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hacdias/caddy-filemanager/config"
-	"github.com/hacdias/caddy-filemanager/file"
+	"github.com/messyidea/caddy-filemanager/config"
+	"github.com/messyidea/caddy-filemanager/file"
 	"github.com/mholt/archiver"
 )
 

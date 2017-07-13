@@ -10,9 +10,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/hacdias/caddy-filemanager/assets"
-	"github.com/hacdias/caddy-filemanager/config"
-	"github.com/hacdias/caddy-filemanager/utils/variables"
+	"github.com/messyidea/caddy-filemanager/assets"
+	"github.com/messyidea/caddy-filemanager/config"
+	"github.com/messyidea/caddy-filemanager/utils/variables"
 )
 
 // Page contains the informations and functions needed to show the Page

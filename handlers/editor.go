@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hacdias/caddy-filemanager/file"
-	"github.com/hacdias/caddy-filemanager/frontmatter"
+	"github.com/messyidea/caddy-filemanager/file"
+	"github.com/messyidea/caddy-filemanager/frontmatter"
 	"github.com/spf13/hugo/parser"
 )
 

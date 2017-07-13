@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/hacdias/caddy-filemanager/config"
-	"github.com/hacdias/caddy-filemanager/file"
-	"github.com/hacdias/caddy-filemanager/page"
-	"github.com/hacdias/caddy-filemanager/utils/errors"
+	"github.com/messyidea/caddy-filemanager/config"
+	"github.com/messyidea/caddy-filemanager/file"
+	"github.com/messyidea/caddy-filemanager/page"
+	"github.com/messyidea/caddy-filemanager/utils/errors"
 )
 
 // ServeSingle serves a single file in an editor (if it is editable), shows the

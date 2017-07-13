@@ -10,12 +10,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hacdias/caddy-filemanager/assets"
-	"github.com/hacdias/caddy-filemanager/config"
-	"github.com/hacdias/caddy-filemanager/file"
-	"github.com/hacdias/caddy-filemanager/handlers"
-	"github.com/hacdias/caddy-filemanager/page"
-	"github.com/hacdias/caddy-filemanager/wrapper"
+	"github.com/messyidea/caddy-filemanager/assets"
+	"github.com/messyidea/caddy-filemanager/config"
+	"github.com/messyidea/caddy-filemanager/file"
+	"github.com/messyidea/caddy-filemanager/handlers"
+	"github.com/messyidea/caddy-filemanager/page"
+	"github.com/messyidea/caddy-filemanager/wrapper"
 	"github.com/mholt/caddy/caddyhttp/httpserver"
 )
 
