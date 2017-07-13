@@ -82,12 +82,22 @@ func (i *Info) RetrieveFileType() error {
 	i.Mimetype = mime.TypeByExtension(i.Extension)
 
 	if i.Mimetype == "" {
-		err := i.Read()
-		if err != nil {
-			return err
-		}
+        file, err := os.Open(i.Path)
+        if err != nil {
+            return err
+        }
+        defer file.Close()
 
-		i.Mimetype = http.DetectContentType(i.Content)
+        // Only the first 512 bytes are used to sniff the content type.
+        buffer := make([]byte, 512)
+        _, err = file.Read(buffer)
+        if err != nil && err != io.EOF {
+            return err
+        }
+
+        // Tries to get the file mimetype using its first
+        // 512 bytes.
+        mimetype = http.DetectContentType(buffer)
 	}
 
 	if strings.HasPrefix(i.Mimetype, "video") {
