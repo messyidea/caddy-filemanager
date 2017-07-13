@@ -1,6 +1,7 @@
 package file
 
 import (
+	"io"
 	"io/ioutil"
 	"mime"
 	"net/http"
