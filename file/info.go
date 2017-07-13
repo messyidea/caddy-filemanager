@@ -97,7 +97,7 @@ func (i *Info) RetrieveFileType() error {
 
         // Tries to get the file mimetype using its first
         // 512 bytes.
-        mimetype = http.DetectContentType(buffer)
+        i.Mimetype = http.DetectContentType(buffer)
 	}
 
 	if strings.HasPrefix(i.Mimetype, "video") {
