@@ -168,7 +168,7 @@ this are keywords case:insensitive
 If you want to build Caddy from source with this plugin, you should take the following steps:
 
 1. Download the Caddy source code (`go get github.com/mholt/caddy/caddy`)
-2. Download the File Manager source code (`go get github.com/hacdias/caddy-filemanager`).
+2. Download the File Manager source code (`go get github.com/messyidea/caddy-filemanager`).
 3. Navigate to the directory where File Manager's code is.
 4. Run `go generate`. Otherwise, you will get an `undefined: Asset` error.
 5. Navigate to the directory where Caddy's source code is and open the file `caddy/caddymain/run.go`.
